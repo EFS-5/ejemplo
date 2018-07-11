@@ -11,9 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var ellabel: UILabel!
     
+    @IBAction func accion(_ sender: Any) {
+        ellabel.text = "Hello World"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        ellabel.text = "Hello World"
+        
     }
 
     override func didReceiveMemoryWarning() {
