@@ -19,7 +19,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         ellabel.text = "Equis"
-
     }
 
     override func didReceiveMemoryWarning() {
