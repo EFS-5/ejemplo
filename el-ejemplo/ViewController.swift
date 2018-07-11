@@ -10,9 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var ellabel: UILabel!
+    @IBOutlet weak var input: UITextField!
     
     @IBAction func accion(_ sender: Any) {
-        ellabel.text = "Hello World"
+        input.text = ellabel.text
     }
     
     override func viewDidLoad() {
