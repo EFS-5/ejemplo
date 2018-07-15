@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var input: UITextField!
     
     @IBAction func accion(_ sender: Any) {
-        input.text = ellabel.text
+        ellabel.text = input.text
     }
     
     override func viewDidLoad() {
